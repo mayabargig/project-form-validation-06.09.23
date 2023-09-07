@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="myForm" onsubmit=" return validate()">
+        <label id="label1">First Name: </label>
+        <span id="span1"></span><br>
+        <input type="text" id="firstName" class="inputs" placeholder="Enter first name"><br>
+        
+        <label id="label2">Last Name: </label>
+        <span id="span2"></span> <br>
+        <input type="text" id="lastName" class="inputs" placeholder="Enter last name"><br>
+        
+        <label id="label3"> Date of Birth: </label>
+        <span id="span3"></span><br>
+        <input type="date" id="dob" class="inputs"><br>
+
+        <label id="label4">Email:</label>
+        <span id="span4"></span><br>
+        <input type="email" id="email" class="inputs" placeholder="Enter email"><br>
+
+        <label id="label5">Phone Number:</label>
+        <span id="span5"></span><br>
+        <input type="tel" id="phoneNumber" class="inputs" name="phoneNumber" placeholder="Enter phone number"><br>
+       
+        <label id="label6">Role: </label>
+        <span id="span6"></span><br>
+        <input type="text" id="role" class="inputs" placeholder="enter role"><br>
+
+        <button type="submit" id="btn">Submit</button>
+    </form>
+    <p id="counter"></p>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
